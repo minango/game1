@@ -1,0 +1,145 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOA86ku+NKmKhZQRL4uYI2h",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/minango/game1/blob/master/multiplication.game\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import random\n",
+        "n1=random.randint(1,30)\n",
+        "n2=random.randint(1,30)\n",
+        "n3=random.randint(10,60)\n",
+        "n4=random.randint(10,60)\n",
+        "n5=random.randint(50,99)\n",
+        "n6=random.randint(50,99)\n",
+        "n7=random.randint(80,200)\n",
+        "n8=random.randint(80,200)\n",
+        "n9=random.randint(100,999)\n",
+        "n10=random.randint(100,999)\n",
+        "total=0\n",
+        "print(\"掛け算ゲーム❗️\")\n",
+        "print(\"全部で５問\")\n",
+        "print(\"＜sで開始＞\")\n",
+        "start=input(\"sを入力してください\")\n",
+        "if start==\"s\":\n",
+        "    print(\"問題Lv1\")\n",
+        "    print(n1,\"×\",n2,\"は？\")\n",
+        "    answer=input(\"答え\")\n",
+        "    num_answer=int(answer)\n",
+        "if num_answer==n1*n2:\n",
+        "    print(\"正解❗️\")\n",
+        "    total+=1\n",
+        "else:\n",
+        "    print(\"不正解😭\")\n",
+        "if input(\"続けるならa,スキップするならeと入力\")==\"a\":\n",
+        "    print(\"問題Lv2\")\n",
+        "    print(n3,\"×\",n4,\"は？\")\n",
+        "    answer=input(\"答え\")\n",
+        "    num_answer=int(answer)\n",
+        "else:\n",
+        "    print(\"スキップしました。\")\n",
+        "\n",
+        "if num_answer==n3*n4:\n",
+        "    print(\"正解❗️\")\n",
+        "    total+=1\n",
+        "else:\n",
+        "    print(\"不正解😭\")\n",
+        "if input(\"続けるならa,スキップするならeを入力\")==\"a\":\n",
+        "    print(\"問題Lv3\")\n",
+        "    print(n5,\"×\",n6,\"は？\")\n",
+        "    answer=input(\"答え\")\n",
+        "    num_answer=int(answer)\n",
+        "else:\n",
+        "    print(\"スキップしました。\")\n",
+        "\n",
+        "if num_answer==n5*n6:\n",
+        "    print(\"正解❗️\")\n",
+        "    total+=1\n",
+        "else:\n",
+        "    print(\"不正解😭\")\n",
+        "if input(\"続けるならa,スキップするならeを入力\")==\"a\":\n",
+        "    print(\"問題Lv4\")\n",
+        "    print(n7,\"×\",n8,\"は？\")\n",
+        "    answer=input(\"答え\")\n",
+        "    num_answer=int(answer)\n",
+        "else:\n",
+        "    print(\"スキップしました。\")\n",
+        "\n",
+        "if num_answer==n7*n8:\n",
+        "    print(\"正解❗️\")\n",
+        "    total+=1\n",
+        "else:\n",
+        "    print(\"不正解😭\")\n",
+        "if input(\"続けるならa,スキップするならeを入力\")==\"a\":\n",
+        "    print(\"問題LvMax\")\n",
+        "    print(n9,\"×\",n10,\"は？\")\n",
+        "    answer=input(\"答え\")\n",
+        "    num_answer=int(answer)\n",
+        "else:\n",
+        "    print(\"スキップしました。\")\n",
+        "\n",
+        "if num_answer==n7*n8:\n",
+        "    print(\"正解❗️\")\n",
+        "    total+=1\n",
+        "else:\n",
+        "    print(\"不正解😭\")\n",
+        "print(\"終了しました。\",total,\"問正解！\")\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        ""
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "8vbKQkkQbcqA",
+        "outputId": "3ec9d0f9-3e03-483a-f971-3c5a32245669"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "掛け算ゲーム❗️\n",
+            "全部で５問\n",
+            "＜sで開始＞\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [],
+      "metadata": {
+        "id": "oSAbntI9aoM2"
+      }
+    }
+  ]
+}
